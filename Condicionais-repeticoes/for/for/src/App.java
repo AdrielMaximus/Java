@@ -4,6 +4,5 @@ public class App {
         for (int objetos=0;objetos<padaria.length ; objetos++) {
             System.out.println("produtos disponiveis: "+ padaria[objetos]);
         }
-        if()
     }
 }
