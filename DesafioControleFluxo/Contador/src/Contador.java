@@ -6,7 +6,7 @@ public class Contador {
         int parametroUm = terminal.nextInt();
         System.out.println("Digite o segundo parâmetro");
         int parametroDois = terminal.nextInt();
-
+        terminal.close();
         try {
             // calling the contar method without the int keyword
             contar(parametroUm, parametroDois);
@@ -34,4 +34,5 @@ public class Contador {
             System.err.println("O segundo parâmetro deve ser maior que o primeiro");
         }
     }
+
 } // Add closing brace for the Contador class
