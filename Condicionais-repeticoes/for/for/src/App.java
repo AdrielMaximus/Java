@@ -1,12 +1,18 @@
+import java.util.Scanner;  
 public class App {
     public static void main(String[] args) throws Exception {
-        String padaria[] = {"pao", "doce", "salgado", "torta", "bolo", "pudim", "rosca", "pao de queijo", "pao de batata", "pao de leite", "pao de mel"};
-        try {
-            for (int objetos=0;objetos<padaria.length ; objetos++) {
-                System.out.println("produtos disponiveis: "+ padaria[objetos]);
-            }
-        } catch (Exception e) {
-            System.out.println("Erro: "+ e.getMessage());
-        }
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Jogador 1. Digite sua ação");
+        String jogador1 = sc.nextLine(); 
+        System.out.println("Jogador 2. Digite sua ação");
+        String jogador2 = sc.nextLine(); 
+        if(jogador1.equals("pedra") && jogador2.equals("papel") || jogador1.equals("ataque") && jogador2.equals("papel") || jogador1.equals("ataque") && jogador2.equals("pedra")){
+            System.out.println("Jogador 1 venceu");
+        }else if(jogador2.equals("pedra") && jogador1.equals("papel") || jogador2.equals("ataque") && jogador1.equals("pedra") || jogador2.equals("ataque") && jogador1.equals("papel")){
+            System.out.println("Jogador 2 venceu");
+        }else if(jogador1.equals(jogador2)){
+            System.out.println("Empate");
+    }
+    sc.close();
     }
 }
