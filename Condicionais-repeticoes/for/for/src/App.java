@@ -10,9 +10,13 @@ public class App {
             System.out.println("Jogador 1 venceu");
         }else if(jogador2.equals("pedra") && jogador1.equals("papel") || jogador2.equals("ataque") && jogador1.equals("pedra") || jogador2.equals("ataque") && jogador1.equals("papel")){
             System.out.println("Jogador 2 venceu");
-        }else if(jogador1.equals(jogador2)){
-            System.out.println("Empate");
-    }
+        }else if(jogador2.equals("pedra") && jogador1.equals("pedra")){
+            System.out.println("ambos perderam");
+        }else if(jogador2.equals("papel") && jogador1.equals("papel")){
+            System.out.println("Ambos venceram");
+        }else if(jogador2.equals("ataque") && jogador1.equals("ataque")){
+            System.out.println("Aniquilação mútua");
+        }
     sc.close();
     }
 }
