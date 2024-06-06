@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="Condicionais-repeticoes/condicionais/src"/>
+	<classpathentry kind="src" path="Condicionais-repeticoes/for/for/src"/>
+	<classpathentry kind="src" path="ContaBanco/Banco/src"/>
+	<classpathentry kind="src" path="DesafioControleFluxo/Contador/src"/>
+	<classpathentry kind="src" path="Java/src"/>
+	<classpathentry kind="lib" path="eclipse/configuration/org.eclipse.osgi/201/data/-827998358/content.jar"/>
+	<classpathentry kind="lib" path="eclipse/configuration/org.eclipse.osgi/209/data/listener_1925729951/artifacts.jar"/>
+	<classpathentry kind="lib" path="eclipse/configuration/org.eclipse.osgi/209/data/listener_1925729951/content.jar"/>
+	<classpathentry kind="lib" path="eclipse/plugins/org.eclipse.equinox.launcher_1.6.700.v20240213-1244.jar"/>
+	<classpathentry kind="output" path="Condicionais-repeticoes/condicionais/bin"/>
+</classpath>
