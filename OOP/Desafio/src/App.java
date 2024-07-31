@@ -5,6 +5,5 @@ public class App {
          * private = - just for the class itself
          * protected = # just for the package and subclasses
          */
-        System.out.println("Hellook World!");
     }
 }
