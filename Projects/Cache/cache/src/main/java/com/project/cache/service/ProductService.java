@@ -8,7 +8,7 @@ import lombok.extern.slf4j.Slf4j;
 @Slf4j
 public class ProductService {
     private final ProductRepository productRepository;
-    public String listAll() {
+    public List<Product> listAll() {
         log.info("Request to list all products");
         return "List of products";
     }

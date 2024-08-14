@@ -1,0 +1,8 @@
+spring:
+  cache:
+    type: redis
+  redis:
+    host:
+logging:
+  level:
+    org.springframework.data.redis: TRACE
